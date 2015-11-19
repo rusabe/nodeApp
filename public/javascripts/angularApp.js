@@ -108,7 +108,6 @@ app.factory('auth', ['$http', '$window', function($http, $window){
     };
 
     auth.getToken = function(){
-        console.log(window.localStorage['ruben-news-token']);
         return $window.localStorage['ruben-news-token'];
     };
 
